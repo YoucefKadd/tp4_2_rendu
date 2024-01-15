@@ -38,5 +38,5 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Build Docker Image
-        run: docker push youcef33/tp4:latest
+      - name: Push Docker Image
+        run: docker push youcef33/tp4_rendu_1
