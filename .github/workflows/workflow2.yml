@@ -3,7 +3,7 @@ name: CI/CD Workflow with Docker 2
 on: [push]
 
 env:
-  TEST: ${{ TEST }}
+  TEST: "2"
 
 jobs:
   build_and_deploy:
