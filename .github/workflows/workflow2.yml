@@ -1,4 +1,4 @@
-name: CI/CD Workflow with Docker
+name: CI/CD Workflow with Docker 2
 
 on: [push]
 
