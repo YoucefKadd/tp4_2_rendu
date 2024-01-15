@@ -39,4 +39,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker Image
-        run: docker push youcef33/tp4_rendu_1:latest
+        run: docker push youcef33/tp4:latest
