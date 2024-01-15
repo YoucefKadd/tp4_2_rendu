@@ -2,6 +2,9 @@ name: CI/CD Workflow with Docker 2
 
 on: [push]
 
+env:
+  test: ${{ test }}
+
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
