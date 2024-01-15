@@ -44,4 +44,3 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-        run: docker push youcefalg16/tp4_rendu_1
