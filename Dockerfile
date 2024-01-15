@@ -10,8 +10,5 @@ COPY . .
 # Installe les dépendances spécifiées dans le fichier requirements.txt
 RUN pip install -r requirements.txt
 
-# Expose le port sur lequel l'application Flask s'exécute
-EXPOSE 5000
-
 # Commande pour démarrer l'application lorsque le conteneur est lancé
 CMD ["python", "app.py"]
