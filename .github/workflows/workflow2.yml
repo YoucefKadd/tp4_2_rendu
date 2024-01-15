@@ -39,4 +39,9 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker Image to Docker Hub
+        uses: docker/build-push-actions@v2
+        with:
+          context: .
+          file: Dockerfile
+          push: true
         run: docker push youcefalg16/tp4_rendu_1
