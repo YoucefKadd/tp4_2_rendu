@@ -5,8 +5,7 @@
 
 # if __name__ == "__main__":
 #     main()
-import os
-a = float(os.environ['TEST'])
+a = 2
 b = 6
 c = b/a
 print("le resultat est :", c)
